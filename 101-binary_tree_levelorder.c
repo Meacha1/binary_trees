@@ -17,7 +17,7 @@ void binary_tree_levelorder(const binary_tree_t *tree, void (*func)(int))
 	int front = 0, rear = 0;
 
 	if (tree == NULL || func == NULL)
-			return;
+		return;
 
 	queue[rear++] = (binary_tree_t *)tree;
 
